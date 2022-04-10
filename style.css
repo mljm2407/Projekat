@@ -1,0 +1,198 @@
+body {
+    background-color: #ff66ff;
+    margin:0px;
+}
+
+#main-nav {
+    background-color: pink;
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+}
+#main-nav a {
+    display:inline;
+    font-size: 30px;
+    padding:10px 20px;
+}
+
+#main-nav a.active {
+    color:purple;
+}
+
+#image-link {
+    width:45px;
+    height:auto;
+}
+
+#div1 {
+    background-image: url(girl.png);
+    background-size: cover;
+    height:500px; 
+}
+
+#div1 form {
+    float:right;
+    padding: 55px;
+    font-size: 57px;
+    margin: 0px 200px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#div1 h1 {
+    float:left;
+    font-size: 30px;
+    margin:100px 0px 0px 200px;
+    background:rgb(255, 255, 255, 0.5);
+    padding:20px 180px 210px 180px;
+    border-radius: 10%;
+    font-weight:400;
+}
+
+#div1 p {
+    padding:20px 180px 210px 180px;
+    margin:200px 0px 0px 50px;
+    position: absolute;
+    text-align: left;
+    font-family:Georgia, serif; 
+}
+
+#div2 {
+    background-image: url(girl.png);
+    background-size: cover;
+    height:500px; 
+    text-align: left;
+}
+
+#div2 form {
+    display:inline-block;
+    background:rgb(255, 255, 255, 0.5);
+    padding:20px;
+    border-radius: 20px;
+    font-family:Georgia, serif;
+    margin-top:40px;
+}
+
+
+#div2 legend {
+    font-size: 50px;
+}
+
+#div2 input {
+    margin:8px;
+}
+
+#div3 {
+    background-image: url(girl.png);
+    background-size: cover;
+    height:500px; 
+}
+
+#div3 article{
+    background: rgb(255, 255, 255, 0.5) !important;
+    display:inline-block !important;
+    margin: 100px 0px 0px 150px;
+    padding:20px;
+    border-radius: 20px !important;
+}
+
+#div3 .article {
+    float:right;
+    margin: 200px 150px 0px 0px;
+}
+
+#div4 {
+    background-image: url(girl.png);
+    background-size: cover;
+    height:500px; 
+}
+
+#div4 img {
+    border-radius: 50%;
+    width:250px;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:50px;
+}
+
+#div4 h2 {
+    font-weight: 600;
+    font-size: 25px;
+    text-align:center;
+    font-family: Georgia, serif;
+}
+
+#div4 p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align:center;
+    font-family: Georgia, serif;
+}
+
+#div4 article {
+    background: rgb(255, 255, 255, 0.5);
+    display:block;
+    border-radius: 20px;
+    margin-left: 33.3%;
+    float: left;
+    padding:20px 10px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    padding:80px;
+    display:block;
+    color: grey;
+}
+
+#btn1{
+    border-radius: 5px;
+    margin-left:37.5%;
+}
+
+#leg1 {
+    font-family: Georgia, serif;
+    margin-left:12.5%;
+}
+
+a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+input {
+    border-radius: 5px;
+    text-align:left;
+    margin-left:12.5%;
+}
+
+.fade-in1 {
+    animation: fadeIn1 6s ease;
+}
+                
+@keyframes fadeIn1 {
+    0% {opacity:0%}
+    100%{opacity: 100%;}
+}
+
+.fade-in2 {
+    animation: fadeIn2 4s ease;
+}
+                
+@keyframes fadeIn2 {
+    0% {opacity:0%}
+    100%{opacity: 100%;}
+}
+
